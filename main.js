@@ -1,4 +1,4 @@
-var canvas = new fabric.Canvas('my_canvas');
+var canvas = new fabric.Canvas("my_canvas");
 
  block_y=1;
  block_x=1;
@@ -33,29 +33,34 @@ console.log(keyPressed);
 	if(keyPressed == '82') 
 	{
 		console.log("r");
-		new_image("rr1.png")
+		new_image("rr1.png");
+		block_x=1;
 	}
 	if(keyPressed == '71')
 	{
 		console.log("g");
 		new_image("gr.png");
+		block_x=250;
 	}
 	
 	if(keyPressed == '89')
 	{
 		console.log("p");
 		new_image("yr.png");
+		block_x=420;
 	}
 	if(keyPressed == '80')
 	{
 		console.log("p");
 		new_image("pr.png");
+		block_x=650;
                  		
 	}
 	if(keyPressed == '66')
 	{
 		console.log("b");
-		new_image("br.png")
+		new_image("br.png");
+		block_x=700;
 	}
 	
 }
